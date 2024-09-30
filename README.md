@@ -17,7 +17,7 @@ Este código foi escrito em linguagem C, que é uma linguagem de programação d
 ## Conversão para base binário (2), octal (8), hexadecimal (16), BCD 
 Este código é escrito em linguagem C e implementa a conversão de um número decimal para diferentes bases numéricas. O usuário pode escolher entre converter o número para binário (base 2), octal (base 8), hexadecimal (base 16) ou BCD (Decimal Codificado em Binário). A conversão é feita através de funções recursivas e um menu.
 
-Passos:
+### Passos:
 
 * Entrada: O programa solicita ao usuário que insira um número decimal (base 10) e escolha uma das opções de conversão (binário, octal, hexadecimal ou BCD).
 
@@ -27,3 +27,19 @@ Passos:
 
 * Exibição do Resultado: O resultado da conversão é printado na tela de acordo com a base escolhida, e o programa encerra após exibir.
 
+## Conversão de base 10 para base com sinal com 16 bits, complemento 2.
+Este código em C converte um número decimal (em base 10) para complemento de 2 com 16 bits. Ele mostra passo a passo o processo de conversão, tanto para números positivos quanto negativos, mostrando o valor binário final. O complemento de 2 é usado para representar números negativos em binário. Números positivos são convertidos diretamente, enquanto números negativos passam por uma inversão dos bits seguida de uma soma de 1 para calcular o complemento de 2.
+
+### Passos:
+
+* Entrada do Número:
+  O programa solicita ao usuário que insira um número decimal (base 10), verificando se ele está dentro do intervalo permitido para 16 bits com sinal (de -32768 a 32767).
+
+* Verificação de Negatividade:
+A função decimalParaComplemento2verifica se o número é negativo. Se o número for negativo, a função converte o valor absoluto do número para binário e, em seguida, aplica o complemento de 2 (invertendo os bits e somando 1). Se o número for positivo, ele é convertido diretamente para binário, e o resultado é determinado.
+
+* Passo a Passo da Conversão:
+O código apresenta mensagens explicando cada passo da conversão, tanto para números negativos (complemento de 2) quanto para números positivos.
+
+* Exposição dos Resultados:
+Após a conversão, o programa imprime o número em binário com 16 bits, exibindo bit por bit.
