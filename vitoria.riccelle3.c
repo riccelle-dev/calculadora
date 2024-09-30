@@ -1,6 +1,6 @@
 //Vitória Riccelle Wanderley de Sousa 
 //Matéria: Arquitetura de computadores 
-//Codigo 2
+//Codigo 3
 #include <stdio.h>
 
 // Função para mostrar o processo de conversão de decimal para complemento de 2 com 16 bits
